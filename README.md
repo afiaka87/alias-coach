@@ -57,24 +57,24 @@ Commonly aliased commands will have friendly commands suggested from an opiniona
 > ls -al
  .git
  srcf
-$ ls -al 
+> ls -al 
 total 0
-drwxr-xr-x   3 $  staff    96 Nov 21 19:51 .
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 ..
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 .git
-drwxr-xr-x  10 $  staff   320 Nov 21 19:52 hello-world
-$ ls -al 
+drwxr-xr-x   3 >  staff    96 Nov 21 19:51 .
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 ..
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 .git
+drwxr-xr-x  10 >  staff   320 Nov 21 19:52 hello-world
+> ls -al 
 total 0
-drwxr-xr-x   3 $  staff    96 Nov 21 19:51 .
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 ..
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 .git
-drwxr-xr-x  10 $  staff   320 Nov 21 19:52 hello-world
-$ ls -al 
+drwxr-xr-x   3 >  staff    96 Nov 21 19:51 .
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 ..
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 .git
+drwxr-xr-x  10 >  staff   320 Nov 21 19:52 hello-world
+> ls -al 
 total 0
-drwxr-xr-x   3 $  staff    96 Nov 21 19:51 .
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 ..
-drwxr-xr-x+ 34 $  staff  1088 Nov 24 05:43 .git
-drwxr-xr-x  10 $  staff   320 Nov 21 19:52 hello-world
+drwxr-xr-x   3 >  staff    96 Nov 21 19:51 .
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 ..
+drwxr-xr-x+ 34 >  staff  1088 Nov 24 05:43 .git
+drwxr-xr-x  10 >  staff   320 Nov 21 19:52 hello-world
 --- Suggestion: `alias ls='ls -al'` ---
 --- [c]reate/[e]dit/[I]gnore?
 ```
@@ -83,7 +83,7 @@ drwxr-xr-x  10 $  staff   320 Nov 21 19:52 hello-world
 ```sh
 --- [c]reate/[e]dit/[I]gnore? c
 --- Added alias `alias ls='ls -al'` to ~/.zshrc ---
-$
+>
 ```
 
 [e]dit
@@ -91,13 +91,13 @@ $
 --- [c]reate/[e]dit/[I]gnore? e
 --- Enter custom alias name: ls_all
 --- Added alias `alias ls_all='ls -al'` to ~/.zshrc ---
-$
+>
 ```
 
 [I]gnore
 ```sh
 --- [c]reate/[e]dit/[I]gnore? i
-$ 
+> 
 ```
 
 
