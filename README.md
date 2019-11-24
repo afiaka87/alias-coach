@@ -1,19 +1,18 @@
-alias-coach
----
+# alias-coach
 
-# A reminder/suggestion plugin for aliases.
+## A reminder/suggestion plugin for aliases.
 
 This is a plugin for oh-my-zsh that reminds you every time you type a command you have an alias for. It will also suggest aliases for commonly used commands.
 
 
-### Install:
+## Install:
 
 Download and place alias-coach.plugin in ~/.oh-my-zsh/plugins/
 
 
-### Examples:
+## Examples:
 
-#### Reminders
+### Reminders
 
 For this `~/.zshrc`
 
@@ -48,7 +47,7 @@ After three failed attempts, program should interactively prompt you to change, 
 ```
 
 
-#### Suggestions
+## Suggestions
 
 If you use the same command frequently you will be asked if you want to alias it.
 
