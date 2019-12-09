@@ -1,5 +1,6 @@
 # alias-coach
 
+
 ## A reminder/suggestion plugin for aliases.
 
 This is a plugin for oh-my-zsh that reminds you every time you type a command you have an alias for. It will also suggest aliases for commonly used commands.
@@ -7,7 +8,31 @@ This is a plugin for oh-my-zsh that reminds you every time you type a command yo
 
 ## Install:
 
-Download and place alias-coach.plugin in ~/.oh-my-zsh/plugins/
+1.) Clone the repository or download as a zip
+```zsh
+git clone https://github.com/claymullis/alias-coach.git
+```
+
+or 
+
+```zsh
+wget https://github.com/claymullis/alias-coach/archive/master.zip
+```
+
+2.) Unzip if needed and move folder alias-coach to ~/.oh-my-zsh/plugins/
+'''
+# unzip alias_coach.zip
+mv alias-coach ~/.oh-my-zsh/plugins/
+'''
+3.)
+Add the plugin to your ~/.oh-my-zsh/zshrc
+```zsh
+plugins=(
+#...
+alias-coach
+#...
+)
+```
 
 
 ## Examples:
@@ -25,7 +50,7 @@ Here are the results of calling ls. Note the output `--- Reminder: alias dir=ls 
 
 ```sh
 > ls .
-  Folder
+Folder
 --- Reminder: alias dir=ls ---
 ```
 
@@ -33,14 +58,14 @@ After three failed attempts, program should interactively prompt you to change, 
 
 ```sh
 > ls
- Folder
+Folder
 --- Reminder: `alias dir=ls` ---
 > ls
- Folder
+Folder
 --- Reminder: `alias dir=ls` ---
 > ls
- ls
- Folder
+ls
+Folder
 --- Reminder: `alias dir=ls` ---
 --- 3 failures. [c]hange/[d]elete/[I]gnore?  
 
@@ -55,8 +80,8 @@ Commonly aliased commands will have friendly commands suggested from an opiniona
 
 ```sh
 > ls -al
- .git
- srcf
+.git
+srcf
 > ls -al 
 total 0
 drwxr-xr-x   3 >  staff    96 Nov 21 19:51 .
