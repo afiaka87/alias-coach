@@ -20,12 +20,12 @@ wget https://github.com/claymullis/alias-coach/archive/master.zip
 ```
 
 2.) Unzip if needed and move folder alias-coach to ~/.oh-my-zsh/plugins/
-'''
+```zsh
 # unzip alias_coach.zip
 mv alias-coach ~/.oh-my-zsh/plugins/
-'''
-3.)
-Add the plugin to your ~/.oh-my-zsh/zshrc
+```
+
+3.) Add the plugin to your ~/.oh-my-zsh/zshrc
 ```zsh
 plugins=(
 #...
